@@ -48,6 +48,11 @@ async def get_runner_status():
         "gemini_latency_ms": 124 # In a real app, ping the API to get this
     }
 
+@app.get("/")
+@app.get("/health")
+async def health_check():
+    return {"status": "Origins Engine is online"}
+    
 @app.websocket("/ws/terminal")
 async def terminal_endpoint(websocket: WebSocket):
     await websocket.accept()
