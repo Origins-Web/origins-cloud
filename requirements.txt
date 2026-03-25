@@ -1,0 +1,34 @@
+# ==========================================
+# ORIGINS UNIFIED DEPENDENCIES
+# ==========================================
+
+# --- CLI Core (Origins Forge) ---
+typer[all]>=0.9.0
+rich>=13.0.0
+questionary>=2.0.0
+
+# --- Build Tools ---
+setuptools>=68.0.0
+wheel>=0.41.0
+
+# --- Web API Framework (Origins Vision Base) ---
+fastapi>=0.104.0
+uvicorn[standard]>=0.23.2
+python-multipart>=0.0.6
+pydantic>=2.4.0
+
+# --- Computer Vision & Deep Learning ---
+opencv-python-headless>=4.8.0
+ultralytics>=8.0.0
+numpy>=1.26.0
+Pillow>=10.0.0
+
+# --- APIs, Network & Cloud ---
+google-genai>=0.3.0
+openai>=1.0.0
+google-cloud-vision>=3.4.4
+PyGithub>=2.1.1
+requests>=2.31.0
+
+# --- System Utilities ---
+python-dotenv>=1.0.0

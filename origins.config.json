@@ -1,0 +1,6 @@
+{
+  "name": "Origins Vision Integrator Base",
+  "type": "ai",
+  "version": "1.0.0",
+  "description": "FastAPI + YOLOv8 inference engine inside a headless Docker container. Designed for local hardware deployment."
+}
